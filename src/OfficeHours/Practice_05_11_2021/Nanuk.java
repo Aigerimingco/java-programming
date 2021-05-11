@@ -1,4 +1,4 @@
-package OfficeHours.Practoce_05_11_2021;
+package OfficeHours.Practice_05_11_2021;
 
 import java.util.ArrayList;
 
