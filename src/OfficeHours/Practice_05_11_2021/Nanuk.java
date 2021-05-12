@@ -4,6 +4,9 @@ import java.util.ArrayList;
 
 
 
+
+
+
 public class Nanuk {
     public static  boolean nanuk(ArrayList<String > r, int way_stones, int boast){
         int foodFound=0;
