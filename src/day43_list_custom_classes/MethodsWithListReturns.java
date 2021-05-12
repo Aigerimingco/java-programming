@@ -1,8 +1,6 @@
-package day_43_list_custom_classes;
+package day43_list_custom_classes;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class MethodsWithListReturns {

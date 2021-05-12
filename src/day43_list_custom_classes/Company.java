@@ -1,4 +1,4 @@
-package day_43_list_custom_classes;
+package day43_list_custom_classes;
 
 public class Company {
     public static void main(String[] args) {

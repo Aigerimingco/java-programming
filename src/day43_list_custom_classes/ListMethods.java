@@ -1,6 +1,4 @@
-package day_43_list_custom_classes;
-
-import day41_arraylist.ArraysAsList;
+package day43_list_custom_classes;
 
 import java.util.ArrayList;
 import java.util.Arrays;

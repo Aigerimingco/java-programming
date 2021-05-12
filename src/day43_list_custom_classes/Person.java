@@ -1,4 +1,4 @@
-package day_43_list_custom_classes;
+package day43_list_custom_classes;
 
 // firstName, age
 public class Person {
