@@ -1,11 +1,19 @@
 package day47_constructors;
 
 public class Address {
-    private String street, city,state, zipcode,country="USA";
+    private String street, city, state, zipcode, country = "USA";
+
+    public Address() {
+        System.out.println("Address constructor");
+        street = " 123 unknown street";
+        city = "java";
+        state = "WS";
+        zipcode = "00000";
+    }
 
 
     public String toString() {
-        return street+", "+city+", "+state+" "+zipcode;
+        return street + ", " + city + ", " + state + " " + zipcode;
     }
 
     public String getStreet() {
