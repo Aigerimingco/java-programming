@@ -15,7 +15,7 @@ public class Group {
         members.add(newMember);
     }
     public void removeMember(String name){
-        members.add(name);
+        members.remove(name);
     }
 
     @Override
