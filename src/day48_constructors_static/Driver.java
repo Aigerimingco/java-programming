@@ -2,9 +2,12 @@ package day48_constructors_static;
 
 public class Driver {
     private String name;
+    public Driver(){
 
+    }
 
     public Driver(String name) {
+
         this.name = name;
     }
 

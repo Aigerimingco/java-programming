@@ -11,6 +11,10 @@ public class Engine {
         this.cylinders = cylinders;
     }
 
+    public Engine(){
+
+    }
+
     public Engine(int cylinders) {
         this.cylinders = cylinders;
     }
