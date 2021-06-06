@@ -13,6 +13,18 @@ public class InheritanceTest {
         Teacher t1= new Teacher();
         t1.teacherID =1234;
         t1.name ="Saim";
+        t1.age= 25;
+        t1.talk();
+        t1.work("teacher");
+        t1.walk();
+        t1.teach("java inheritance");
+
+        Student st1 = new Student();
+        st1.age = 35;
+        st1.name = "Aika";
+        st1.school = "cybertek";
+        st1.study("java");
+
 
     }
 }

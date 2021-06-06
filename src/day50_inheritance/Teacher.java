@@ -5,6 +5,6 @@ public class Teacher extends Person{
 
 
     public  void  teach(String topic){
-
+        System.out.println("Teacher is teaching "+ topic);
     }
 }
