@@ -6,7 +6,31 @@ public class ElectricCar {
     private  double price;
     private int year;
     private int range;
+    private  static int count;
 
+
+    public ElectricCar(String make, String model, double price, int year, int range) {
+        this.make= make;
+        this.model = model;
+        this.price = price;
+        this.year = year;
+        this.range = range;
+        count++;
+    }
+    public static int getCount(){
+        return count;
+    }
+
+    @Override
+    public String toString() {
+        return "ElectricCar{" +
+                "make='" + make + '\'' +
+                ", model='" + model + '\'' +
+                ", price=" + price +
+                ", year=" + year +
+                ", range=" + range +
+                '}';
+    }
 
     protected void drive(int miles){
         if(range==0 || range - miles<0){
@@ -29,7 +53,11 @@ public class ElectricCar {
     }
 
     public void setMake(String make) {
-        this.make = make;
+        if(!make.isEmpty()) {
+            System.out.println("ERRIR: can not be blank");
+        }else{
+            this.make = make;
+        }
     }
 
     public String getModel() {
