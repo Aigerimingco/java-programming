@@ -2,7 +2,7 @@ package day53_inheritance.tesla;
 
 public class ElectricCar {
     private  String make;
-    private  String model;
+    private   String model;
     private  double price;
     private int year;
     private int range;
@@ -17,6 +17,9 @@ public class ElectricCar {
         this.range = range;
         count++;
     }
+
+
+
     public static int getCount(){
         return count;
     }
