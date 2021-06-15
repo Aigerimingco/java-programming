@@ -1,32 +1,16 @@
 package OfficeHours;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Scanner;
-
 public class quizReview {
-    public static int action(int i) {
-        return i * 2;
-    }
+   static int inum =10;
+
 
     public static void main(String[] args) {
-        int total = 0;
-        total += action(true);
-        total += action(6);
-        total += action("false");
-        total += action("four");
-        System.out.println("num = " + total);
-    }
+      quizReview obj1= new quizReview();
+     obj1.inum=20;
 
-    public static int action(String s) {
-        return s.length();
-    }
 
-    public static int action(boolean b) {
-        if (!b) {
-            return 5;
-        } else {
-            return 10;
-        }
+        quizReview obj2= new quizReview();
+
+        System.out.println(obj2.inum);
     }
 }
