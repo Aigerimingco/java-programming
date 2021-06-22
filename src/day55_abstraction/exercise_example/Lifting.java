@@ -1,14 +1,14 @@
 package day55_abstraction.exercise_example;
 
-public class Running extends Exercise{
+public class Lifting extends Exercise{
 
     @Override
     public void perform() {
-
+        
     }
 
     @Override
     public int getCaloriesCount(int minutes) {
-        return minutes*13;
+        return 0;
     }
 }
