@@ -7,6 +7,10 @@ public static int count;
 public final String type="abstract";
 public static final String LANGUAGE="java";
 
+public AbstractA(){
+    System.out.println("AbstractA constructor");
+}
+
 
 public abstract void absMethodA();
 public void methodB(){
